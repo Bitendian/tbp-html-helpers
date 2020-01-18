@@ -1,0 +1,8 @@
+<div class="paginator">
+@@FIRST@@
+@@PREVIOUS@@
+<span class="numbers">@@NUMBERS@@</span>
+@@NEXT@@
+@@LAST@@
+<span class="info">@@INFO@@</span>
+</div>

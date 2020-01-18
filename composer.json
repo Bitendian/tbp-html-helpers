@@ -1,0 +1,28 @@
+{
+    "name": "bitendian/tbp-html-helpers",
+    "type": "library",
+    "description": "Some basic HTML helpers for TBP based sites",
+    "keywords": ["tbp", "html", "helper", "widget", "paginator", "headers", "alerts"],
+    "homepage": "http://www.bitendian.com/en/portfolio/tbp-5/",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Bitendian S.L.",
+            "email": "info@bitendian.com",
+            "homepage": "http://www.bitendian.com"
+        }
+    ],
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:Bitendian/tbp.git" }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "bitendian/tbp": "1.0.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitendian\\TBP\\HTML\\Helpers\\": "src/"
+        }
+    }
+}
